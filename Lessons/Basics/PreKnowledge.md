@@ -24,5 +24,28 @@ Hello! this is a string
 ```
 
 ### Booleans
+Booleans are a DataType that represent yes and no, for example you can check if something is true and run an action based on that.
+
+`true`, `false`
 
 ## Expressions
+An expression is a pair of 2 symbols that will check two values and return a boolean as a result. you can use these on any DataType <br>
+
+```lua
+-- This code uses if statements which havent been documented in the lessons yet
+
+if 1 == 1 then
+-- this code will run because 1 is equal to 1
+end
+
+if 1 ~= 1 then
+  -- this code would not run since "is 1 not equal to 1" would return as false 
+  -- which tells the script to not run this section of code
+end
+```
+
+| Symbols | Explanation |
+| ------- | ----------- |
+| == | Is equal to |
+| ~= | Does not equal
+
