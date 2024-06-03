@@ -6,10 +6,10 @@
 - [x] PreKnowledge
 - [x] Variables
 - [x] Instances
-- [ ] Functions
+- [x] Functions
 - [x] Printing
 - [x] If Statements and Loops
-- [ ] Tables
+- [x] Tables
 - [ ] Remotes
 - [ ] Vectors
 
