@@ -1,17 +1,20 @@
-# ScriptingLessons
+# ScriptingLessons Checklist
 
 ## Completed Lessons
 
 **Basic Lessons**
 - [x] PreKnowledge
 - [x] Variables
-- [x] Instances
-- [x] Functions
 - [x] Printing
+- [x] Instances
 - [x] If Statements and Loops
+- [x] Functions
 - [x] Tables
-- [ ] Remotes
 - [ ] Vectors
+- [ ] Client VS Server
+- [ ] Script Communication
+- [ ] Organizing a Game & Services
+
 
 **Advanced Lessons**
 - [ ] Metatables
