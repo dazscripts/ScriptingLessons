@@ -29,6 +29,17 @@ Part.Parent = workspace
 Part.Anchored = true
 ```
 
+You can also use a variable to access a child or property of an instance like this
+
+```lua
+local ChildName = "Part"
+local Part = workspace[ChildName]
+local Part = workspace:FindFirstChild(ChildName) -- should use this instead of line above
+
+local PropertyName = "Color"
+local PartColor = Part[PropertyName]
+```
+
 ### Methods
 A method is a function that will directly run an action from an instance
 
