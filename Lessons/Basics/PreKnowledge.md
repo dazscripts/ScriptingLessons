@@ -23,6 +23,23 @@ A strung is a chunk of text you can wrap in quotation marks, if you dont wrap it
 Hello! this is a string
 ```
 
+**Combining Strings**
+There are two ways to combine strings, `string` .. `string/variable` or ``` `string {Variable}` ```
+
+```lua
+-- Variables
+local NumberVar = 4
+local SentenceVar = "I wanna buy "
+
+-- Normal way of combining strings
+local CompletedStringNormal = [SentenceVar] .. NumberVar .. " ducks!"
+print(CompletedStringNormal)
+
+-- Fancy way of combining strings
+local CompletedStringFancy = `{SentenceVar}{NumberVar} ducks!`
+print(CompletedStringFancy)
+```
+
 ### Booleans
 Booleans are a DataType that represent yes and no, for example you can check if something is true and run an action based on that.
 
