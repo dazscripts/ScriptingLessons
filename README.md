@@ -7,7 +7,7 @@
 - [x] Variables
 - [x] Instances
 - [ ] Functions
-- [ ] Printing
+- [x] Printing
 - [x] If Statements and Loops
 - [ ] Tables
 - [ ] Remotes
@@ -21,3 +21,7 @@
 - [ ] Datastores
 - [ ] Module Scripts
 - [ ] CFrames
+
+**Extremely Advanced**
+- [ ] Frameworks
+- [ ] Datastore Modules

@@ -64,5 +64,7 @@ end
 | Symbols | Explanation |
 | ------- | ----------- |
 | == | Is equal to |
-| ~= | Does not equal
+| ~= | Does not equal |
+| >= | Greater than or equals |
+| <= | Less than or equals |
 
