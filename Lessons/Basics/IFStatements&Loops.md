@@ -12,19 +12,19 @@ if true then
 end
 
 if false then
--- will not run, behind the scenes think about an if statement like
--- a condition for if something is true, so it will only run if given
--- a trueish value
+    -- will not run, behind the scenes think about an if statement like
+    -- a condition for if something is true, so it will only run if given
+    -- a trueish value
 end
 
 if false == false then
--- will run
+    -- will run
 end
 
 if "hello" then
--- will run because "hello" is not nil, nil is a falseish value
--- in luau so if you put something in an if statement thats nil
--- then it wont run the code
+    -- will run because "hello" is not nil, nil is a falseish value
+    -- in luau so if you put something in an if statement thats nil
+    -- then it wont run the code
 end
 ```
 
@@ -40,29 +40,29 @@ A for loop can be used in a few different ways, it has a use for tables to run c
 -- NOTE: dw about this one till u learn tables
 local NewTable = {"i am a string", "i am also a string"}
 for Index, Value in NewTable do
-print(Index, Value)
+    print(Index, Value)
 end
 
 
 -- Repeating # of times
 --[[
-this version takes 3 arguements, starting number, ending number, interpolater
-what this will do is that it will start with an Index
-that is equivalent to the starting number and add the interpolater
-to that number until it reaches or exceeds the ending number.
-each time the Index is changed it will run any code inside the loop.
+    this version takes 3 arguements, starting number, ending number, interpolater
+    what this will do is that it will start with an Index
+    that is equivalent to the starting number and add the interpolater
+    to that number until it reaches or exceeds the ending number.
+    each time the Index is changed it will run any code inside the loop.
 
-NOTE: the 3rd arguement isnt required
+    NOTE: the 3rd arguement isnt required
 ]]
 
 for Index = 0, 10, 1 do
-print(Index)
+    print(Index)
 end
 -- Output: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 -- Any of the arguements can be negative, for example:
 
 for Index = 10, 0, -1 do
-print(Index)
+    print(Index)
 end
 -- Output: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
 ```
@@ -73,8 +73,8 @@ this will run a segment of code until a condition is not met, the condition is p
 ```lua
 local Number = 0
 repeat
-Number += 1 -- adds 1 to Number
-print(Number)
+    Number += 1 -- adds 1 to Number
+    print(Number)
 until Number >= 5 -- Stops the loop when Number is greater than or equal to 5.
 ```
 
@@ -87,7 +87,7 @@ however one big difference is that unlike the repeat until loop this checks the 
 ```lua
 local number = 0
 while number < 6 do
-number += 1
-print(number)
+    number += 1
+    print(number)
 end
 ```

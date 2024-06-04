@@ -6,7 +6,7 @@ To create a function you type `local function FunctionNameHere()` and then an `e
 
 ```lua
 local function ThisIsAFunction()
--- Code Goes here
+    -- Code Goes here
 end
 ```
 After doing this you can write any code you want to run inside of this function you made.
@@ -28,7 +28,7 @@ To run a function you have created you can type the functions name followed by p
 
 ```lua
 local function TestFunction()
-print("Function Ran")
+    print("Function Ran")
 end
 
 TestFunction()
@@ -41,7 +41,7 @@ To provide these parameters to the function you just have values separated by co
 
 ```lua
 local function ParameterTesting(Parameter1, Parameter2)
-print(Parameter1, Parameter2)
+    print(Parameter1, Parameter2)
 end
 
 ParameterTesting("String", 123)

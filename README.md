@@ -10,7 +10,7 @@
 - [x] If Statements and Loops
 - [x] Functions
 - [x] Tables
-- [ ] Vectors
+- [x] Vectors
 - [ ] Client VS Server
 - [ ] Script Communication
 - [ ] Organizing a Game & Services

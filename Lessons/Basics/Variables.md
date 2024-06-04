@@ -4,7 +4,7 @@
 
 ### What is a Variable? 
 
-A variablemis an object in your code designed to be used as storage to reference to other values and objects efficiently.
+A variable is an object in your code designed to be used as storage to reference to other values and objects efficiently.
 
 ### What are some use cases for this?
 
@@ -25,9 +25,9 @@ local ComparedNumber = 10
 -- code below can use this variable, code above variable cant use it
 
 while ComparedNumber < CurrentNumber do
-CurrentNumber += 1 -- this is the same as doing CurrentNumber = CurrentNumber + 1
-print(CurrentNumber, ComparedNumber)
-task.wait(0.5)
+    CurrentNumber += 1 -- this is the same as doing CurrentNumber = CurrentNumber + 1
+    print(CurrentNumber, ComparedNumber)
+    task.wait(0.5)
 end
 ```
 
@@ -45,8 +45,8 @@ local TestTable = {
 }
 
 for Index, Value in TestTable do
-print(Index)
-if Index > 10 then return end -- exits the loop if index is above 10
+    print(Index)
+    if Index > 10 then return end -- exits the loop if index is above 10
 end
 ```
 </details>

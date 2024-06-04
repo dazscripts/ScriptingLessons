@@ -11,9 +11,9 @@ Vector3.new(1,2,3)
 When you think of a vector3's properties you can imagine them like a table
 ```
 Vector3.new(1,2,3) -> {
-X = 1,
-Y = 2,
-Z = 3
+    X = 1,
+    Y = 2,
+    Z = 3
 }
 ```
 You can read these properties just like you can with a table, it however is not a table so you cant do things like for loops to them.
