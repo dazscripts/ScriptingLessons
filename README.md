@@ -11,8 +11,8 @@
 - [x] Functions
 - [x] Tables
 - [x] Vectors
-- [ ] Client VS Server
-- [ ] Script Communication
+- [x] Client VS Server
+- [x] Script Communication
 - [ ] Organizing a Game & Services
 
 
