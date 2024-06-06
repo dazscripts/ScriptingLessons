@@ -93,3 +93,36 @@ end
 -- Invoke the client
 Remote:InvokeClient(PlayerInstanceHere, "Arguement")
 ```
+
+**But now how do we communicate across scripts in the same context??**
+
+### BindableEvent
+This lets a script in one context communicate to a script in the same context, for example a local script can talk to another local script.
+
+```lua
+local BindableEvent = Instance.new("BindableEvent")
+
+-- Recieve Events
+BindableEvent.Event:Connect(function(Arguement)
+  print(Arguement)
+end)
+
+-- Fire Event
+BindableEvent:Fire("Arguement")
+```
+
+### BindableFunction
+This is the same thing as the `BindableEvent` but serves the same purpose as a `RemoteFunction`
+
+```lua
+local BindableFunction = Instance.new("BindableFunction")
+
+-- Recieve Events
+BindableFunction.OnInvoke = function(Arguement)
+  print(Arguement)
+  return "Funny String gets returned"
+end
+
+-- Invoke Event
+BindableFunction:Invoke("Arguement")
+```
