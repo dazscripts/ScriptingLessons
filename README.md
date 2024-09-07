@@ -1,3 +1,5 @@
+# THIS IS BEING MIGRATED TO https://hackmd.io/@Drastic
+
 # ScriptingLessons Checklist
 
 ## Completed Lessons
